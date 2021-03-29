@@ -1,0 +1,107 @@
+body{
+    margin: 0 auto;
+    background-color: rgb(233, 243, 247);
+}
+
+.container{
+    width: 1000px;
+    height: auto;
+    background-color: rgb(15, 119, 197);
+    margin: auto;
+}
+
+.logo{
+    width: 15%;
+    float: left;
+    padding: 15px;
+    
+    
+}
+
+.cabecera{
+    float: left;
+    padding: 15px 15px 0px 0px;
+    width: 80%;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.main-menu{
+    background-color: lightblue;
+}
+
+.main-menu > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.main-menu > ul > li {
+    display: inline-block;
+    background-color: rgb(165, 214, 230);
+}
+
+.main-menu > ul > li > a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.main-menu > ul > li > a:hover{
+    background-color: rgb(43, 183, 230);
+}
+
+.drop{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+
+.drop > li > a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+    background-color: rgb(165, 214, 230);
+}
+
+.drop > li > a:hover{
+    background-color: rgb(43, 183, 230);
+}
+
+.main-menu > ul > li:hover .drop{
+    display: block;
+}
+
+.main-menu > ul .redes{
+    float: right;
+
+}
+
+.main-menu > ul .redes > li{
+    float: right;
+    padding: 10px;
+}
+
+.redes{
+    margin: 0px;
+    padding: 0px;
+}
+
+.redes > li > a > img {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+
